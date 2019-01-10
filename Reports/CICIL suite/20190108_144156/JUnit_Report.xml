@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CICIL suite" time="31" tests="2" failures="0" errors="0">
+   <testsuite name="CICIL suite" tests="2" failures="0" errors="0" time="31" timestamp="2019-01-08 14:42:02" hostname="cicil - LAPTOP-G31AKJNJ" id="Test Suites/CICIL suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144156"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144156\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cicil - LAPTOP-G31AKJNJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.51.2"/>
+         <property name="sessionId" value="aedd2d3b4b612b3156948dc72fee138a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/stagingbeta-login" classname="Test Cases/stagingbeta-login" status="PASSED">
+         <system-out><![CDATA[2019-01-08 14:42:03 - [TEST_CASE][PASSED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login
+
+2019-01-08 14:42:03 - [TEST_STEP][PASSED] - openBrowser("staging-beta.cicil.co.id"): Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:42:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-08 14:42:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-08 14:42:15 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:42:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-08 14:42:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-08 14:42:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/span_tutup"), 5): Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:42:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:42:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/span_tutup")): Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:42:17 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-01-08 14:42:18 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")): Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-08 14:42:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-08 14:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/a_Masuk")): Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-08 14:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-08 14:42:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/input_username"), 10): Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-08 14:42:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_username"), varEmail): Text 'dev@cicil.co' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-08 14:42:19 - [MESSAGE][PASSED] - Text 'dev@cicil.co' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_password"), varPass): Text 'Rahasia1' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-08 14:42:19 - [MESSAGE][PASSED] - Text 'Rahasia1' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/button_Masuk")): Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-08 14:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - println(varScope): null
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - webUrl = getUrl(): Current window's url is: 'https://staging-beta.cicil.co.id/login'
+
+2019-01-08 14:42:19 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-beta.cicil.co.id/login'
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - println(webUrl): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stagingbeta-login" classname="Test Cases/stagingbeta-login" status="PASSED">
+         <system-out><![CDATA[2019-01-08 14:42:19 - [TEST_CASE][PASSED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login
+
+2019-01-08 14:42:19 - [TEST_STEP][PASSED] - openBrowser("staging-beta.cicil.co.id"): Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:42:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-08 14:42:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-08 14:42:29 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:42:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-08 14:42:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-08 14:42:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/span_tutup"), 5): Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:42:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/span_tutup")): Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:42:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:42:30 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-01-08 14:42:31 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")): Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-08 14:42:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-08 14:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/a_Masuk")): Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-08 14:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-08 14:42:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/input_username"), 10): Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-08 14:42:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-08 14:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_username"), varEmail): Text 'testing+kucaynewyear@cicil.co.id' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-08 14:42:32 - [MESSAGE][PASSED] - Text 'testing+kucaynewyear@cicil.co.id' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-08 14:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_password"), varPass): Text '1234567A' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-08 14:42:33 - [MESSAGE][PASSED] - Text '1234567A' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-08 14:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/button_Masuk")): Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-08 14:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-08 14:42:33 - [TEST_STEP][PASSED] - println(varScope): null
+
+2019-01-08 14:42:33 - [TEST_STEP][PASSED] - webUrl = getUrl(): Current window's url is: 'https://staging-beta.cicil.co.id/login'
+
+2019-01-08 14:42:33 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-beta.cicil.co.id/login'
+
+2019-01-08 14:42:33 - [TEST_STEP][PASSED] - println(webUrl): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-08 14:42:02 - [TEST_SUITE][PASSED] - CICIL suite: Test Cases/stagingbeta-login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic SUite" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="Basic SUite" tests="1" failures="0" errors="0" time="15" timestamp="2019-01-04 14:13:34" hostname="cicil - LAPTOP-G31AKJNJ" id="Test Suites/Basic SUite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\Basic SUite\\20190104_141328"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\Basic SUite\\20190104_141328\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cicil - LAPTOP-G31AKJNJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.51.2"/>
+         <property name="sessionId" value="b105cb3a0205c346410cf94d87dcb77a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic" classname="Test Cases/Basic" status="PASSED">
+         <system-out><![CDATA[2019-01-04 14:13:35 - [TEST_CASE][PASSED] - Test Cases/Basic: Test Cases/Basic
+
+2019-01-04 14:13:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-04 14:13:35 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2019-01-04 14:13:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-04 14:13:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-04 14:13:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-01-04 14:13:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-01-04 14:13:43 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-01-04 14:13:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-04 14:13:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-04 14:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-01-04 14:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-01-04 14:13:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-01-04 14:13:47 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-01-04 14:13:47 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-01-04 14:13:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-01-04 14:13:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-01-04 14:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-01-04 14:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/label_Apply for hospital readm")): Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readm' is clicked on
+
+2019-01-04 14:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readm' is clicked on
+
+2019-01-04 14:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/div_Visit Date (Required)_inpu")): Object: 'Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_inpu' is clicked on
+
+2019-01-04 14:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_inpu' is clicked on
+
+2019-01-04 14:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/td_24")): Object: 'Object Repository/Page_CURA Healthcare Service/td_24' is clicked on
+
+2019-01-04 14:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_24' is clicked on
+
+2019-01-04 14:13:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CURA Healthcare Service/textarea_Comment_comment"), "thus is comment"): Text 'thus is comment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-01-04 14:13:48 - [MESSAGE][PASSED] - Text 'thus is comment' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-01-04 14:13:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-01-04 14:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-01-04 14:13:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2019-01-04 14:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2019-01-04 14:13:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-04 14:13:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-04 14:13:34 - [TEST_SUITE][PASSED] - Basic SUite: Test Cases/Basic]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

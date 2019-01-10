@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>stagingbeta-login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87a5d5b3-9eae-434e-851c-a6a546f4f30c</testCaseGuid>
+   <variable>
+      <defaultValue>'email@email.com'</defaultValue>
+      <description>email untuk login</description>
+      <id>e0f0588a-668b-4124-897f-7eb153715435</id>
+      <masked>false</masked>
+      <name>varEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234567B'</defaultValue>
+      <description>pass untuk login</description>
+      <id>5e469fea-985f-4c4d-8b08-1892ba165afe</id>
+      <masked>false</masked>
+      <name>varPass</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description>default scope user yang login</description>
+      <id>e84fefe6-8cbd-45ca-bd70-43cd68a29b2a</id>
+      <masked>false</masked>
+      <name>varScope</name>
+   </variable>
+</TestCaseEntity>

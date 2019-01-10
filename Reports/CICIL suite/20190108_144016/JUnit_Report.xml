@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CICIL suite" time="31" tests="1" failures="1" errors="0">
+   <testsuite name="CICIL suite" tests="1" failures="1" errors="0" time="31" timestamp="2019-01-08 14:40:22" hostname="cicil - LAPTOP-G31AKJNJ" id="Test Suites/CICIL suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144016"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144016\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144016\\1546933251566.png, D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144016\\1546933252911.png"/>
+         <property name="hostName" value="cicil - LAPTOP-G31AKJNJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.51.2"/>
+         <property name="sessionId" value="7a0367fc7d8e33dd37c31898b085df99"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/stagingbeta-login" classname="Test Cases/stagingbeta-login" status="PASSED">
+         <system-out><![CDATA[2019-01-08 14:40:23 - [TEST_CASE][PASSED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login
+
+2019-01-08 14:40:23 - [TEST_STEP][PASSED] - openBrowser("staging-beta.cicil.co.id"): Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:40:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-08 14:40:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-08 14:40:37 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:40:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-08 14:40:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-08 14:40:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/span_tutup"), 5): Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:40:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:40:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/span_tutup")): Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:40:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:40:38 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")): Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-08 14:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-08 14:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/a_Masuk")): Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-08 14:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-08 14:40:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/input_username"), 10): Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-08 14:40:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-08 14:40:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_username"), varEmail): Text 'dev@cicil.co' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-08 14:40:39 - [MESSAGE][PASSED] - Text 'dev@cicil.co' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-08 14:40:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_password"), varPass): Text 'Rahasia1' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-08 14:40:40 - [MESSAGE][PASSED] - Text 'Rahasia1' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-08 14:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/button_Masuk")): Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-08 14:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-08 14:40:40 - [TEST_STEP][PASSED] - println(varScope): null
+
+2019-01-08 14:40:40 - [TEST_STEP][PASSED] - webUrl = getUrl(): Current window's url is: 'https://staging-beta.cicil.co.id/login'
+
+2019-01-08 14:40:40 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-beta.cicil.co.id/login'
+
+2019-01-08 14:40:40 - [TEST_STEP][PASSED] - println(webUrl): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stagingbeta-login" classname="Test Cases/stagingbeta-login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-08 14:40:40 - [TEST_CASE][FAILED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)
+
+
+2019-01-08 14:40:40 - [TEST_STEP][PASSED] - openBrowser("staging-beta.cicil.co.id"): Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:40:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-08 14:40:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-08 14:40:50 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-08 14:40:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-08 14:40:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-08 14:40:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/span_tutup"), 5): Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:40:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is present
+
+2019-01-08 14:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/span_tutup")): Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-08 14:40:51 - [TEST_STEP][FAILED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")): verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)
+
+
+2019-01-08 14:40:52 - [MESSAGE][FAILED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is visible
+[[ATTACHMENT|D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144016\\1546933251566.png]]
+
+2019-01-08 14:40:53 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+[[ATTACHMENT|D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190108_144016\\1546933252911.png]]
+
+2019-01-08 14:40:53 - [MESSAGE][FAILED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-08 14:40:40 - [TEST_CASE][FAILED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-08 14:40:22 - [TEST_SUITE][FAILED] - CICIL suite: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-08 14:40:22 - [TEST_SUITE][FAILED] - CICIL suite: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Page_CICIL_login/span_tutup' is visible)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.verifyElementNotVisible(VerifyElementNotVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotVisibleKeyword.execute(VerifyElementNotVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(WebUiBuiltInKeywords.groovy:401)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotVisible$3.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546933221049.run(TempTestSuite1546933221049.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

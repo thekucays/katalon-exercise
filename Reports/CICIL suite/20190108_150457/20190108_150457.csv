@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CICIL suite,Chrome 70.0.3538.110,,2019-01-08 15:05:03,2019-01-08 15:05:44,41.779s,FAILED
+,,,,,,
+Test Cases/stagingbeta-login,Chrome 70.0.3538.110,,2019-01-08 15:05:03,2019-01-08 15:05:16,12.627s,FAILED
+"openBrowser(""staging-beta.cicil.co.id"")",Chrome 70.0.3538.110,,2019-01-08 15:05:03,2019-01-08 15:05:13,9.618s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2019-01-08 15:05:13,2019-01-08 15:05:14,1.143s,PASSED
+"waitForElementVisible(findTestObject(""Page_CICIL_login/span_tutup""), 5)",Chrome 70.0.3538.110,,2019-01-08 15:05:14,2019-01-08 15:05:14,0.119s,PASSED
+"click(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 15:05:14,2019-01-08 15:05:16,1.354s,FAILED
+,,,,,,
+Test Cases/stagingbeta-login,Chrome 70.0.3538.110,,2019-01-08 15:05:16,2019-01-08 15:05:44,28.095s,PASSED
+"openBrowser(""staging-beta.cicil.co.id"")",Chrome 70.0.3538.110,,2019-01-08 15:05:16,2019-01-08 15:05:26,9.952s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2019-01-08 15:05:26,2019-01-08 15:05:27,1.126s,PASSED
+"waitForElementVisible(findTestObject(""Page_CICIL_login/span_tutup""), 5)",Chrome 70.0.3538.110,,2019-01-08 15:05:27,2019-01-08 15:05:27,0.065s,PASSED
+"click(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 15:05:27,2019-01-08 15:05:27,0.067s,PASSED
+Thread.sleep(1500),Chrome 70.0.3538.110,,2019-01-08 15:05:27,2019-01-08 15:05:28,1.507s,PASSED
+"verifyElementNotVisible(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 15:05:28,2019-01-08 15:05:28,0.043s,PASSED
+"click(findTestObject(""Page_CICIL_login/a_Masuk""))",Chrome 70.0.3538.110,,2019-01-08 15:05:28,2019-01-08 15:05:28,0.089s,PASSED
+"waitForElementPresent(findTestObject(""Page_CICIL_login/input_username""), 10)",Chrome 70.0.3538.110,,2019-01-08 15:05:28,2019-01-08 15:05:29,0.546s,PASSED
+"setText(findTestObject(""Page_CICIL_login/input_username""), varEmail)",Chrome 70.0.3538.110,,2019-01-08 15:05:29,2019-01-08 15:05:29,0.313s,PASSED
+"setText(findTestObject(""Page_CICIL_login/input_password""), varPass)",Chrome 70.0.3538.110,,2019-01-08 15:05:29,2019-01-08 15:05:29,0.143s,PASSED
+"click(findTestObject(""Page_CICIL_login/button_Masuk""))",Chrome 70.0.3538.110,,2019-01-08 15:05:29,2019-01-08 15:05:30,0.103s,PASSED
+Thread.sleep(7000),Chrome 70.0.3538.110,,2019-01-08 15:05:30,2019-01-08 15:05:37,7.003s,PASSED
+"if (varScope == ""admin"")",Chrome 70.0.3538.110,,2019-01-08 15:05:37,2019-01-08 15:05:37,0.005s,PASSED
+else,Chrome 70.0.3538.110,,2019-01-08 15:05:37,2019-01-08 15:05:37,0.026s,PASSED
+"println(""going to sleep"")",Chrome 70.0.3538.110,,2019-01-08 15:05:37,2019-01-08 15:05:37,0.004s,PASSED
+Thread.sleep(7000),Chrome 70.0.3538.110,,2019-01-08 15:05:37,2019-01-08 15:05:44,7.003s,PASSED
+"println(""i am awake"")",Chrome 70.0.3538.110,,2019-01-08 15:05:44,2019-01-08 15:05:44,0.003s,PASSED
+webUrl = getUrl(),Chrome 70.0.3538.110,,2019-01-08 15:05:44,2019-01-08 15:05:44,0.050s,PASSED
+"println("">>> value webUrl: "" + webUrl + "", scope: "" + varScope)",Chrome 70.0.3538.110,,2019-01-08 15:05:44,2019-01-08 15:05:44,0.001s,PASSED

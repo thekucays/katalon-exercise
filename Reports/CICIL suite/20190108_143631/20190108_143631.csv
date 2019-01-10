@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CICIL suite,Chrome 70.0.3538.110,,2019-01-08 14:36:38,2019-01-08 14:37:06,28.427s,PASSED
+,,,,,,
+Test Cases/stagingbeta-login,Chrome 70.0.3538.110,,2019-01-08 14:36:38,2019-01-08 14:36:55,16.797s,PASSED
+"openBrowser(""staging-beta.cicil.co.id"")",Chrome 70.0.3538.110,,2019-01-08 14:36:38,2019-01-08 14:36:52,13.671s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2019-01-08 14:36:52,2019-01-08 14:36:53,1.171s,PASSED
+"waitForElementPresent(findTestObject(""Page_CICIL_login/span_tutup""), 5)",Chrome 70.0.3538.110,,2019-01-08 14:36:53,2019-01-08 14:36:53,0.101s,PASSED
+"click(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 14:36:53,2019-01-08 14:36:53,0.143s,PASSED
+"verifyElementNotVisible(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 14:36:53,2019-01-08 14:36:53,0.071s,PASSED
+"click(findTestObject(""Page_CICIL_login/a_Masuk""))",Chrome 70.0.3538.110,,2019-01-08 14:36:53,2019-01-08 14:36:53,0.156s,PASSED
+"waitForElementPresent(findTestObject(""Page_CICIL_login/input_username""), 10)",Chrome 70.0.3538.110,,2019-01-08 14:36:53,2019-01-08 14:36:54,0.626s,PASSED
+"setText(findTestObject(""Page_CICIL_login/input_username""), varEmail)",Chrome 70.0.3538.110,,2019-01-08 14:36:54,2019-01-08 14:36:54,0.198s,PASSED
+"setText(findTestObject(""Page_CICIL_login/input_password""), varPass)",Chrome 70.0.3538.110,,2019-01-08 14:36:54,2019-01-08 14:36:54,0.171s,PASSED
+"click(findTestObject(""Page_CICIL_login/button_Masuk""))",Chrome 70.0.3538.110,,2019-01-08 14:36:54,2019-01-08 14:36:55,0.117s,PASSED
+println(varScope),Chrome 70.0.3538.110,,2019-01-08 14:36:55,2019-01-08 14:36:55,0.003s,PASSED
+,,,,,,
+Test Cases/stagingbeta-login,Chrome 70.0.3538.110,,2019-01-08 14:36:55,2019-01-08 14:37:05,10.238s,PASSED
+"openBrowser(""staging-beta.cicil.co.id"")",Chrome 70.0.3538.110,,2019-01-08 14:36:55,2019-01-08 14:37:02,7.578s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2019-01-08 14:37:02,2019-01-08 14:37:03,1.129s,PASSED
+"waitForElementPresent(findTestObject(""Page_CICIL_login/span_tutup""), 5)",Chrome 70.0.3538.110,,2019-01-08 14:37:03,2019-01-08 14:37:03,0.043s,PASSED
+"click(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 14:37:03,2019-01-08 14:37:04,0.106s,PASSED
+"verifyElementNotVisible(findTestObject(""Page_CICIL_login/span_tutup""))",Chrome 70.0.3538.110,,2019-01-08 14:37:04,2019-01-08 14:37:04,0.080s,PASSED
+"click(findTestObject(""Page_CICIL_login/a_Masuk""))",Chrome 70.0.3538.110,,2019-01-08 14:37:04,2019-01-08 14:37:04,0.072s,PASSED
+"waitForElementPresent(findTestObject(""Page_CICIL_login/input_username""), 10)",Chrome 70.0.3538.110,,2019-01-08 14:37:04,2019-01-08 14:37:04,0.559s,PASSED
+"setText(findTestObject(""Page_CICIL_login/input_username""), varEmail)",Chrome 70.0.3538.110,,2019-01-08 14:37:04,2019-01-08 14:37:05,0.305s,PASSED
+"setText(findTestObject(""Page_CICIL_login/input_password""), varPass)",Chrome 70.0.3538.110,,2019-01-08 14:37:05,2019-01-08 14:37:05,0.175s,PASSED
+"click(findTestObject(""Page_CICIL_login/button_Masuk""))",Chrome 70.0.3538.110,,2019-01-08 14:37:05,2019-01-08 14:37:05,0.135s,PASSED
+println(varScope),Chrome 70.0.3538.110,,2019-01-08 14:37:05,2019-01-08 14:37:05,0.000s,PASSED

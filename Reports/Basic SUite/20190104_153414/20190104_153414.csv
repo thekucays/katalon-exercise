@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic SUite,Chrome 70.0.3538.110,test bikin suite,2019-01-04 15:34:21,2019-01-04 15:34:38,17.284s,FAILED
+,,,,,,
+Test Cases/Basic,Chrome 70.0.3538.110,,2019-01-04 15:34:21,2019-01-04 15:34:37,16.264s,FAILED
+"openBrowser("""")",Chrome 70.0.3538.110,,2019-01-04 15:34:21,2019-01-04 15:34:29,7.486s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 70.0.3538.110,,2019-01-04 15:34:29,2019-01-04 15:34:32,3.543s,PASSED
+Thread.sleep(2000),Chrome 70.0.3538.110,,2019-01-04 15:34:32,2019-01-04 15:34:34,2.028s,PASSED
+maximizeWindow(),Chrome 70.0.3538.110,,2019-01-04 15:34:34,2019-01-04 15:34:35,1.302s,PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 70.0.3538.110,,2019-01-04 15:34:35,2019-01-04 15:34:36,0.584s,PASSED
+"setText(findTestObject(""Page_CURA Healthcare Service/input_Username_username""), varUsername)",Chrome 70.0.3538.110,,2019-01-04 15:34:36,2019-01-04 15:34:36,0.168s,PASSED
+"setEncryptedText(findTestObject(""Page_CURA Healthcare Service/input_Password_password""), varPassword)",Chrome 70.0.3538.110,,2019-01-04 15:34:36,2019-01-04 15:34:37,0.783s,FAILED
