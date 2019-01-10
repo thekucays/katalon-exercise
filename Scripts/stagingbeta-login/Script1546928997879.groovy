@@ -53,6 +53,7 @@ if (varScope == 'admin') {
     WebUI.verifyElementVisible(findTestObject('Page_CICIL_adminDashboard/button_Add Danger'))
 } else {
     println('>>> the scope is student')
+	// test commit
 }
 
 println('going to sleep')
