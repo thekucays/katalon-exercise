@@ -40,20 +40,23 @@ WebUI.setText(findTestObject('Page_CICIL_login/input_password'), varPass)
 
 WebUI.click(findTestObject('Page_CICIL_login/button_Masuk'))
 
-// verify should landed on admin page (if admin, OR, home if standard user
-Thread.sleep(7000)
-
 if (varScope == 'admin') {
-    println('>>> the scope is admin. verifying dashboard elements')
+	Thread.sleep(7000)
+	println('>>> the scope is admin. verifying dashboard elements')
 
     WebUI.verifyElementPresent(findTestObject('Page_CICIL_adminDashboard/span_Dashboard'), 3)
-
     WebUI.verifyElementVisible(findTestObject('Page_CICIL_adminDashboard/button_Add Success'))
-
     WebUI.verifyElementVisible(findTestObject('Page_CICIL_adminDashboard/button_Add Danger'))
-} else {
-    println('>>> the scope is student')
-	// test commit
+} else if (varScope == 'student'){
+    println('>>> the scope is student. verifying homepage elements')
+	WebUI.waitForElementVisible(findTestObject('Page_CICIL_studentDashboard/strong_HeaderText'), 3)
+	
+	WebUI.verifyElementPresent(findTestObject('Page_CICIL_studentDashboard/button_AkunSaya'), 0)
+	WebUI.verifyElementPresent(findTestObject('Page_CICIL_studentDashboard/button_Logout'), 0)
+	WebUI.verifyElementPresent(findTestObject('Page_CICIL_studentDashboard/strong_HeaderText'), 0)
+} else{
+	println('>>> the scope is ambassador')
+	println('>>> TODO next')
 }
 
 println('going to sleep')

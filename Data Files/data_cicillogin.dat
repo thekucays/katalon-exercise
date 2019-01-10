@@ -10,20 +10,21 @@
    <driver>InternalData</driver>
    <data>dev%40cicil.co Rahasia1 admin</data>
    <data>testing%2Bkucaynewyear%40cicil.co.id 1234567A student</data>
+   <data>amb5%40mailinator.com 1234567A ambassador</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>dt_email</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>dt_password</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>dt_scope</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

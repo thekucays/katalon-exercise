@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CICIL suite" time="47" tests="1" failures="1" errors="0">
+   <testsuite name="CICIL suite" tests="1" failures="1" errors="0" time="47" timestamp="2019-01-10 17:12:59" hostname="cicil - LAPTOP-G31AKJNJ" id="Test Suites/CICIL suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190110_171252"/>
+         <property name="logFiles" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190110_171252\\execution0.log"/>
+         <property name="attachments" value="D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190110_171252\\1547115225318.png"/>
+         <property name="hostName" value="cicil - LAPTOP-G31AKJNJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.110"/>
+         <property name="hostAddress" value="192.168.51.2"/>
+         <property name="sessionId" value="c93b0b98cd19ea9e9b0a4c16f230fe90"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/stagingbeta-login" classname="Test Cases/stagingbeta-login" status="PASSED">
+         <system-out><![CDATA[2019-01-10 17:12:59 - [TEST_CASE][PASSED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login
+
+2019-01-10 17:13:00 - [TEST_STEP][PASSED] - openBrowser("staging-beta.cicil.co.id"): Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-10 17:13:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-10 17:13:00 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-10 17:13:12 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-10 17:13:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-10 17:13:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-10 17:13:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CICIL_login/span_tutup"), 5): Object 'Object Repository/Page_CICIL_login/span_tutup' is visible
+
+2019-01-10 17:13:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is visible
+
+2019-01-10 17:13:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/span_tutup")): Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-10 17:13:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-10 17:13:14 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-01-10 17:13:15 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")): Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-10 17:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-10 17:13:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/a_Masuk")): Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-10 17:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-10 17:13:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/input_username"), 10): Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-10 17:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-10 17:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_username"), varEmail): Text 'dev@cicil.co' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-10 17:13:16 - [MESSAGE][PASSED] - Text 'dev@cicil.co' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-10 17:13:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_password"), varPass): Text 'Rahasia1' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-10 17:13:16 - [MESSAGE][PASSED] - Text 'Rahasia1' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-10 17:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/button_Masuk")): Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-10 17:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-10 17:13:17 - [TEST_STEP][PASSED] - if (varScope == "admin"): Object 'Object Repository/Page_CICIL_adminDashboard/button_Add Danger' is visible
+
+2019-01-10 17:13:17 - [TEST_STEP][PASSED] - Thread.sleep(7000): null
+
+2019-01-10 17:13:24 - [TEST_STEP][PASSED] - println(">>> the scope is admin. verifying dashboard elements"): null
+
+2019-01-10 17:13:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CICIL_adminDashboard/span_Dashboard"), 3): Object 'Object Repository/Page_CICIL_adminDashboard/span_Dashboard' is present
+
+2019-01-10 17:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_adminDashboard/span_Dashboard' is present
+
+2019-01-10 17:13:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CICIL_adminDashboard/button_Add Success")): Object 'Object Repository/Page_CICIL_adminDashboard/button_Add Success' is visible
+
+2019-01-10 17:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_adminDashboard/button_Add Success' is visible
+
+2019-01-10 17:13:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_CICIL_adminDashboard/button_Add Danger")): Object 'Object Repository/Page_CICIL_adminDashboard/button_Add Danger' is visible
+
+2019-01-10 17:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_adminDashboard/button_Add Danger' is visible
+
+2019-01-10 17:13:24 - [TEST_STEP][PASSED] - println("going to sleep"): null
+
+2019-01-10 17:13:24 - [TEST_STEP][PASSED] - Thread.sleep(7000): null
+
+2019-01-10 17:13:31 - [TEST_STEP][PASSED] - println("i am awake"): null
+
+2019-01-10 17:13:31 - [TEST_STEP][PASSED] - webUrl = getUrl(): Current window's url is: 'https://staging-beta.cicil.co.id/cicil4j4/dashboard'
+
+2019-01-10 17:13:31 - [MESSAGE][PASSED] - Current window's url is: 'https://staging-beta.cicil.co.id/cicil4j4/dashboard'
+
+2019-01-10 17:13:31 - [TEST_STEP][PASSED] - println(">>> value webUrl: " + webUrl + ", scope: " + varScope): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/stagingbeta-login" classname="Test Cases/stagingbeta-login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-10 17:13:31 - [TEST_CASE][FAILED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)
+
+
+2019-01-10 17:13:31 - [TEST_STEP][PASSED] - openBrowser("staging-beta.cicil.co.id"): Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-10 17:13:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-10 17:13:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-10 17:13:41 - [MESSAGE][PASSED] - Browser is opened with url: 'staging-beta.cicil.co.id'
+
+2019-01-10 17:13:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-10 17:13:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-10 17:13:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_CICIL_login/span_tutup"), 5): Object 'Object Repository/Page_CICIL_login/span_tutup' is visible
+
+2019-01-10 17:13:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is visible
+
+2019-01-10 17:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/span_tutup")): Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-10 17:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/span_tutup' is clicked on
+
+2019-01-10 17:13:42 - [TEST_STEP][PASSED] - Thread.sleep(1500): null
+
+2019-01-10 17:13:44 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("Page_CICIL_login/span_tutup")): Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-10 17:13:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/span_tutup' is NOT visible
+
+2019-01-10 17:13:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/a_Masuk")): Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-10 17:13:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/a_Masuk' is clicked on
+
+2019-01-10 17:13:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CICIL_login/input_username"), 10): Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-10 17:13:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CICIL_login/input_username' is present
+
+2019-01-10 17:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_username"), varEmail): Text 'testing+kucaynewyear@cicil.co.id' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-10 17:13:45 - [MESSAGE][PASSED] - Text 'testing+kucaynewyear@cicil.co.id' is set on object 'Object Repository/Page_CICIL_login/input_username'
+
+2019-01-10 17:13:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CICIL_login/input_password"), varPass): Text '1234567A' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-10 17:13:45 - [MESSAGE][PASSED] - Text '1234567A' is set on object 'Object Repository/Page_CICIL_login/input_password'
+
+2019-01-10 17:13:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_CICIL_login/button_Masuk")): Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-10 17:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CICIL_login/button_Masuk' is clicked on
+
+2019-01-10 17:13:45 - [TEST_STEP][PASSED] - if (varScope == "admin"): null
+
+2019-01-10 17:13:45 - [TEST_STEP][FAILED] - else if (varScope == "student"): else if (varScope == "student") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)
+
+
+2019-01-10 17:13:45 - [TEST_STEP][PASSED] - println(">>> the scope is student. verifying homepage elements"): null
+
+2019-01-10 17:13:45 - [TEST_STEP][FAILED] - waitForElementVisible(findTestObject("Page_CICIL_studentDashboard/"), 3): else if (varScope == "student") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)
+
+
+2019-01-10 17:13:45 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_CICIL_studentDashboard/' does not exist
+
+2019-01-10 17:13:45 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-10 17:13:45 - [MESSAGE][FAILED] - Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|D:\\Katalon Studio\\Projects\\CURA test\\Reports\\CICIL suite\\20190110_171252\\1547115225318.png]]
+
+2019-01-10 17:13:45 - [MESSAGE][FAILED] - else if (varScope == "student") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-10 17:13:31 - [TEST_CASE][FAILED] - Test Cases/stagingbeta-login: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-10 17:12:59 - [TEST_SUITE][FAILED] - CICIL suite: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-10 17:12:59 - [TEST_SUITE][FAILED] - CICIL suite: Test Cases/stagingbeta-login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be visible (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.waitForElementVisible(WaitForElementVisibleKeyword.groovy:99)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementVisibleKeyword.execute(WaitForElementVisibleKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(WebUiBuiltInKeywords.groovy:434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementVisible$1.call(Unknown Source)
+	at stagingbeta-login.run(stagingbeta-login:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1547115177241.run(TempTestSuite1547115177241.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

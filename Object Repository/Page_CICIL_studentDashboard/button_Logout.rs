@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_tutup x</name>
+   <name>button_Logout</name>
    <tag></tag>
-   <elementGuidId>b07c074b-d997-488f-bf25-f1b536c22af2</elementGuidId>
+   <elementGuidId>c55e9391-b5b1-4c24-991d-66b04dd5dd1e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='top']/cicil-modal/div/div/div/div/div/div/div/span</value>
+         <value>(//button[@name='button-my-account'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,57 +17,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>text-white cursor-pointer</value>
+      <value>btn btn-orange</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>tutup [x]</value>
+      <value>button-my-account</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;top&quot;)/cicil-modal[1]/div[@class=&quot;backdrop show&quot;]/div[@class=&quot;modal-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-12 text-center&quot;]/span[@class=&quot;text-white cursor-pointer&quot;]</value>
+      <value>id(&quot;top&quot;)/cicil-header[@class=&quot;ng-tns-c2-0&quot;]/div[@class=&quot;header-container bg-white&quot;]/div[@class=&quot;header-menu-container&quot;]/div[@class=&quot;d-none d-lg-block&quot;]/div[@class=&quot;row justify-content-center align-items-center no-gutters position-relative&quot;]/div[@class=&quot;my-account-container&quot;]/div[@class=&quot;row no-gutters align-items-center&quot;]/div[@class=&quot;col-auto mr-4&quot;]/span[@class=&quot;ng-tns-c2-0 ng-star-inserted&quot;]/button[@class=&quot;btn btn-orange&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>(//button[@name='button-my-account'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='top']/cicil-modal/div/div/div/div/div/div/div/span</value>
+      <value>//div[@id='top']/cicil-header/div/div/div/div/div[3]/div/div/span[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ver. 2.9.2-staging'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akun Saya'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright ©2018 PT CICIL SOLUSI MITRA TEKNOLOGI'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bantuan'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='tutup [x]'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Akses Cicilan Ringan Untuk Mahasiswa Indonesia'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//cicil-modal/div/div/div/div/div/div/div/span</value>
+      <value>//span[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>
