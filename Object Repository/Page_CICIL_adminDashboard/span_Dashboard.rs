@@ -6,6 +6,18 @@
    <elementGuidId>e38998c9-f59c-4d2c-a3a8-df29935b2163</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '
+            Dashboard
+            
+            
+          ' or . = '
+            Dashboard
+            
+            
+          ')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='dev@cicil.co'])[1]/following::span[1]</value>
       </entry>
