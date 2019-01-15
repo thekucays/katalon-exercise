@@ -14,7 +14,7 @@
       <guid>6245e8c7-a0e7-4af7-9b52-fe793a41acf5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/stagingbeta-login</testCaseId>
+      <testCaseId>Test Cases/CASE_Cicil/stagingbeta-login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6b1c8676-6c1e-44b5-95e0-e7a1be71fd5d</id>

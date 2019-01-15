@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description></description>
    <name>stagingbeta-login</name>
-   <tag></tag>
+   <tag>login</tag>
    <comment></comment>
    <testCaseGuid>87a5d5b3-9eae-434e-851c-a6a546f4f30c</testCaseGuid>
    <variable>
