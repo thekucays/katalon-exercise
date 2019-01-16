@@ -1,9 +1,13 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import org.junit.After
+
+import com.google.gson.JsonElement
 import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import groovy.json.JsonSlurper
 
 WebUI.openBrowser('staging-beta.cicil.co.id')
 
@@ -47,8 +51,12 @@ loginResponse = WS.sendRequest(loginRequest)
 WS.verifyResponseStatusCode(loginResponse, 200)
 println '>>> login status code is: ' + loginResponse.statusCode
 
-// get token
+// get token (https://docs.katalon.com/katalon-studio/tutorials/parse_json_responses.html#jsonslurper)
 println '>>> response: ' + loginResponse.getResponseBodyContent()
+String responseString = loginResponse.getResponseBodyContent()
+JsonSlurper slurper = new JsonSlurper()
+Map responseParsed = slurper.parseText(responseString)
+println '>>> token: ' + responseParsed.token
 
 //
 //// set login cookie (https://docs.katalon.com/katalon-studio/docs/set-cookies-for-browsers.html)
