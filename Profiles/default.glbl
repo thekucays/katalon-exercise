@@ -9,4 +9,9 @@
       <initValue>'testValue'</initValue>
       <name>testName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>authToken</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

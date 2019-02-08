@@ -66,18 +66,18 @@ Map responseParsed = slurper.parseText(responseString)
 println '>>> token: ' + responseParsed.token
 
 // manually create the request
-RequestObject requestActivate = new RequestObject('activator')
+////RequestObject requestActivate = new RequestObject('activator')
 //requestActivate.setBodyContent(null)
 //TestObjectProperty propCookie = new TestObjectProperty("token", ConditionType.EQUALS, responseParsed.token)
 //TestObjectProperty propPath = new TestObjectProperty("path", ConditionType.EQUALS, '/')
 //TestObjectProperty propDomain = new TestObjectProperty("domain", ConditionType.EQUALS, '.api-staging.cicil.co.id')
-TestObjectProperty propToken = new TestObjectProperty('Authorization', ConditionType.EQUALS, responseParsed.token.toString())
-ArrayList headers = Arrays.asList(propToken)
+////TestObjectProperty propToken = new TestObjectProperty('Authorization', ConditionType.EQUALS, responseParsed.token.toString())
+////ArrayList headers = Arrays.asList(propToken)
 
 //requestActivate.setHttpHeaderProperties(headers)
 GlobalVariable.authToken = responseParsed.token
-requestActivate.setRestUrl('http://api-staging.cicil.co.id/v1/registration/activate_email')
-requestActivate.setRestRequestMethod('GET')
+//requestActivate.setRestUrl('http://api-staging.cicil.co.id/v1/registration/activate_email')
+//requestActivate.setRestRequestMethod('GET')
 
 //// set login cookie (https://docs.katalon.com/katalon-studio/docs/set-cookies-for-browsers.html)
 //println '>>> setting login cookie'
