@@ -19,16 +19,16 @@ WebUI.openBrowser('staging-beta.cicil.co.id')
 WebUI.maximizeWindow()
 
 // tutup pop up
-WebUI.waitForElementPresent(findTestObject('Page_CICIL_login/span_tutup'), 5)
+//WebUI.waitForElementPresent(findTestObject('Page_CICIL_login/span_tutup'), 5)
 
-WebUI.waitForElementVisible(findTestObject('Page_CICIL_login/span_tutup'), 5)
+//WebUI.waitForElementVisible(findTestObject('Page_CICIL_login/span_tutup'), 5)
 
 //WebUI.waitForElementPresent(findTestObject('Page_CICIL_login/span_tutup'), 5)
-WebUI.click(findTestObject('Page_CICIL_login/span_tutup'))
+//WebUI.click(findTestObject('Page_CICIL_login/span_tutup'))
 
 Thread.sleep(1500)
 
-WebUI.verifyElementNotVisible(findTestObject('Page_CICIL_login/span_tutup'))
+//WebUI.verifyElementNotVisible(findTestObject('Page_CICIL_login/span_tutup'))
 
 //WebUI.verifyElementNotPresent(findTestObject('Page_CICIL_login/span_tutup'), 1)
 // klik masuk
